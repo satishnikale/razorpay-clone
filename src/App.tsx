@@ -1,4 +1,5 @@
 import './App.css'
+import { AddSection } from './components/ui/AdevertiseSection'
 import { CardSection } from './components/ui/CardSection'
 import { CoreFeatures } from './components/ui/CoreFeatures'
 import { FeatureSection } from './components/ui/FeatureSection'
@@ -18,6 +19,7 @@ function App() {
        <FeatureSection2 />
        <FeatureSection3 />
        <CoreFeatures />
+       <AddSection />
     </div>
   )
 }

@@ -8,3 +8,16 @@
     box-sizing:border-box;
     overflow-x:hidden
 }
+
+.companiesList {
+    animation: 10s infinite linear moveComapany;
+}
+
+@keyframes moveComapany {
+    0%{
+        top:0;
+    }
+    100%{
+        top: -50%;
+    }
+}

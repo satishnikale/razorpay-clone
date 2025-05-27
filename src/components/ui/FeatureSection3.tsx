@@ -1,7 +1,7 @@
 import { ChevronIcon } from "../../icons/Chevroncon"
 
 export const FeatureSection3 = () => {
-    return <div className="w-[1080px] h-auto mx-auto">
+    return <div className="w-[1080px] h-auto mx-auto relative">
 
             <img className="absolute left-64 -top-10" src="src/assets/images/feature-section1-dottedrows.png" alt="" />
             <img className="absolute right-0" src="src/assets/images/feature-section1-dottedrows.png" alt="" />
