@@ -1,12 +1,15 @@
 import './App.css'
 import { AddSection } from './components/ui/AdevertiseSection'
 import { CardSection } from './components/ui/CardSection'
+import { Carousoul } from './components/ui/CarosoulSection'
 import { CoreFeatures } from './components/ui/CoreFeatures'
 import { FeatureSection } from './components/ui/FeatureSection'
 import { FeatureSection2 } from './components/ui/FeatureSection2'
 import { FeatureSection3 } from './components/ui/FeatureSection3'
+import { Footer } from './components/ui/FooterSection'
 import { HeroSection } from './components/ui/HeroSection'
 import { Navbar } from './components/ui/Navbar'
+import { Testomonial } from './components/ui/TestomonialSection'
 
 function App() {
 
@@ -20,6 +23,9 @@ function App() {
        <FeatureSection3 />
        <CoreFeatures />
        <AddSection />
+       <Carousoul />
+       <Testomonial />
+       <Footer />
     </div>
   )
 }
