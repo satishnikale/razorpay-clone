@@ -1,12 +1,12 @@
-import { RightIcon } from "../../icons/RightIcon";
+// import { RightIcon } from "../../icons/RightIcon";                                                       
 
 export const Footer = () => {
   return (
     <div className="bg-blue-50">
-      <div className="w-[1080px] mx-auto h-auto overflow-x-hidden-hidden">
-        <div className="flex my-10">
+      <div className="w-10/12 max-w-[1080px] mx-auto h-auto overflow-x-hidden-hidden">
+        <div className="w-full my-10 lg:flex">
           {/* left section  */}
-          <div className="w-3/12">
+          <div className="w-full md:w-72` lg:w-3/12">
             <img
               className="w-28"
               src="./src/assets/images/logo-dark.svg"
@@ -70,7 +70,7 @@ export const Footer = () => {
             </div>
           </div>
           {/* right section  */}
-          <div className="w-9/12 flex justify-between ml-32">
+          <div className="w-full pt-10 mx-8 md:w-9/12 flex flex-col  justify-between md:ml-32">
             <div className="flex flex-col gap-y-2">
               {/* link - 1  */}
               <h2 className="text-gray-500 font-mullish font-bold">

@@ -1,7 +1,7 @@
 import { ChevronIcon } from "../../icons/Chevroncon"
 
 export const CardSection = () => {
-    return <div className="w-[1080px] mx-auto  grid grid-cols-3 gap-4">
+    return <div className="w-10/12 max-w-[1080px] mx-auto  grid md:grid-cols-2 lg:grid-cols-3 gap-4">
 
         {/* card - 1  */}
         <div className="w-full min-h-[15rem] relative cursor-pointer">

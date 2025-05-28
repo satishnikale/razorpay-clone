@@ -8,7 +8,7 @@ export const FeatureSection = () => {
         <img className="absolute -top-32 left-32" src="src/assets/images/feature-section1-dottedrows.png" alt="" loading="lazy" />
         <img className="absolute right-0 top-32" src="src/assets/images/feature-section1-dottedrows.png" alt="" loading="lazy" />
 
-        <div className="w-[1080px] mx-auto pt-8">
+        <div className="w-10/12 max-w-[1080px] mx-auto pt-8">
             {/* heading */}
             <h1 className="text-center text-2xl font-extrabold">Accept Payments with Razorpay Payment Suite</h1>
             <div className="h-1 w-6 bg-greenLight mx-auto my-2"></div>
@@ -53,7 +53,7 @@ export const FeatureSection = () => {
                         </li>
                     </ul>
                     {/* button and links */}
-                    <div className="flex gap-2">
+                    <div className="flex flex-col md:flex-row gap-2">
                         <button className="flex  justify-center items-center text-white gap-2 rounded py-4 px-7 bg-blue-500 hover:bg-blue-600 font-extrabold transition-all trasition-duration-200">
                             Sign up now 
                             <RightIcon />
@@ -67,7 +67,7 @@ export const FeatureSection = () => {
                 </div>
                 {/* backgraound image  */}
                 <img src="src/assets/images/payment-suite.png" alt="" 
-                className="max-w-[38rem] absolute right-0 bottom-0"
+                className="max-w-[38rem] absolute right-0 bottom-0 hidden md:block lg:block md:max-w-[400px] lg:max-w-[600px]"
                 />
             </div>
 

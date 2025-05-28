@@ -3,7 +3,7 @@ import { RightIcon } from "../../icons/RightIcon"
 
 export const Testomonial = () => {
     return <div className="bg-[url(src/assets/images/CTABg.svg)] bg-no-repeat bg-cover">
-        <div className="w-[1080px] mx-auto h-auto mt-28 flex">
+        <div className="w-10/12 max-w-[1080px] mx-auto h-auto mt-28 flex">
             <div className="my-16">
                 <h1 className="text-white font-bold font-mullish text-2xl">Supercharge your business with Razorpay</h1>
                 <div className="h-1 w-8  bg-greenLight my-4"></div>
@@ -33,7 +33,7 @@ export const Testomonial = () => {
                 </button>
             </div>
             <div className="mx-auto">
-                <img className="h-44" src="src/assets/images/ctaImg.svg" alt="" />
+                <img className="h-44 hidden md:hidden" src="src/assets/images/ctaImg.svg" alt="" />
             </div>
         </div>
     </div>

@@ -1,9 +1,9 @@
 export const HeroSection = () => {
   return (
     <div>
-      <div className="relative bg-deepBlue w-full">
-        <div className="flex flex-row justify-between items-center w-[1080px] h-auto mx-auto">
-          <div className="flex flex-col w-2/5">
+      <div className="relative bg-deepBlue">
+        <div className="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto">
+          <div className="space-y-8">
             <h1 className="text-white text-4xl font-bold tracking-tight overflow-y-hidden">
               Power Your Finance, <br />
               Grow Yor Bussiness

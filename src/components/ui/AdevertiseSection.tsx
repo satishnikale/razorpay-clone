@@ -1,9 +1,9 @@
 export const AddSection = () => {
     return (
         <div className="h-auto w-screen bg-blue-50 mb-10">
-            <div className="w-[1080px] mx-auto">
-                <div className="flex justify-between items-center">
-                    <div className="flex flex-col my-20 w-3/5">
+            <div className="w-10/12 max-w-[1080px] mx-auto">
+                <div className="flex flex-col md:flex-row justify-between items-center">
+                    <div className="flex flex-col my-10 w-3/5">
                         <h1 className="font-mullish font-bold text-2xl mt-8 mb-4">
                             Join the 50,00,000+ businesses using Razorpay
                         </h1>
@@ -19,7 +19,7 @@ export const AddSection = () => {
                             for you.
                         </p>
                     </div>
-                    <div className="relative w-2/5 h-[500px] overflow-y-hidden">
+                    <div className="relative w-3/5 h-[300px] overflow-y-hidden">
                         {/* <div style={{background: linear-gradient(180deg, #f4f8ff, #fff0)}} 
                             className="absolute w-full h-[150px] top-0">
                             </div> */}
