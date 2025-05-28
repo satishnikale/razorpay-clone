@@ -1,3 +1,5 @@
+import { RightIcon } from "../../icons/RightIcon";
+
 export const Footer = () => {
   return (
     <div className="bg-blue-50">
@@ -43,7 +45,16 @@ export const Footer = () => {
             </h2>
 
             {/* butotn  */}
-            <div className="h-20 w-full bg-red-400"></div>
+            <div className="h-10 my-6 w-full flex">
+            <input className="appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-blue-600" id="username" type="text" placeholder="Your Email"
+            
+            />
+            {/* <button className="flex justify-center items-center gap-1 text-lightBlue font-mullish font-bold text-sm">
+                Subscribe
+                <RightIcon />
+            </button>  */}
+
+            </div>
 
             <div className="flex justify-between items-center">
               <img

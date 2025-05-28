@@ -52,7 +52,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-link-icon.svg" alt="" />
+                src="src/assets/images/payment-pages-icon.svg" alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-link-icon.svg" alt="" />
+                src="src/assets/images/payment-buttons-icon.svg" alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-link-icon.svg" alt="" />
+                src="src/assets/images/subscriptions-icon.svg" alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +192,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-link-icon.svg" alt="" />
+                src="src/assets/images/route-icon.svg" alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +238,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-link-icon.svg" alt="" />
+                src="src/assets/images/smart-collect-icon.svg" alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
