@@ -86,11 +86,11 @@ export const CardSection = () => {
                 ></path>
             </svg>
 
-            <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
+            <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8 overflow-y-hidden">
                 <div>
                     <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment Pages
                     </h3>
-                    <p className="font-mullish text-grayText mt-6">Take your store online instantly with zero coding. Accept international & domestic payments
+                    <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Take your store online instantly with zero coding. Accept international & domestic payments
 
                     </p>
                 </div>
@@ -135,9 +135,9 @@ export const CardSection = () => {
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
                 <div>
-                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment Buttons
+                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Payment Buttons
                     </h3>
-                    <p className="font-mullish text-grayText mt-6">Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more
+                    <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more
 
                     </p>
                 </div>
@@ -182,8 +182,8 @@ export const CardSection = () => {
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
                 <div>
-                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Subscriptions</h3>
-                    <p className="font-mullish text-grayText mt-6">Subscription plans with automated recurring transactions on various payment modes.
+                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Subscriptions</h3>
+                    <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Subscription plans with automated recurring transactions on various payment modes.
 
                     </p>
                 </div>
@@ -228,8 +228,8 @@ export const CardSection = () => {
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
                 <div>
-                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Route</h3>
-                    <p className="font-mullish text-grayText mt-6">Split incoming payments auto- matically to vendor’s accounts, manage marketplace money flow...
+                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Route</h3>
+                    <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Split incoming payments auto- matically to vendor’s accounts, manage marketplace money flow...
 
                     </p>
                 </div>
@@ -274,9 +274,9 @@ export const CardSection = () => {
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
                 <div>
-                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Smart Collect
+                    <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Smart Collect
                     </h3>
-                    <p className="font-mullish text-grayText mt-6">Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using Virtual Accounts & UPI-IDs
+                    <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using Virtual Accounts & UPI-IDs
 
 </p>
                 </div>

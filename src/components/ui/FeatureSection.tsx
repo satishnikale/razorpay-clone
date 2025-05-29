@@ -20,7 +20,7 @@ export const FeatureSection = () => {
                 {/* left section  */}
                 <div className="w-full px-10 py-10">
                     <h3
-                    className="text-3xl font-extrabold"
+                    className="text-3xl font-extrabold overflow-y-hidden"
                     >Supercharge your business with the <br /> all‑powerful <span className="text-blue-500">Payment Gateway</span> </h3>
 
                     <ul className="my-10 font-mullish">
