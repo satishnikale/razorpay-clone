@@ -25,7 +25,7 @@ export const AddSection = () => {
                             </div> */}
                         <img
                             className="absolute companiesList"
-                            src="src/assets/images/comanies.png"
+                            src="comanies.png"
                             alt=""
                         />
                         {/* <div></div> */}
