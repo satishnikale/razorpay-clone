@@ -27,7 +27,7 @@ function App() {
        <Carousoul />
        <Testomonial />
        <Footer />
-    <MyImage />
+    {/* <MyImage /> */}
        
     </div>
   )
