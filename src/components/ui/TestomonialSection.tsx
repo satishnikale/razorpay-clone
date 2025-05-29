@@ -3,7 +3,7 @@ import { RightIcon } from "../../icons/RightIcon";
 import ctaImg from "../../assets/images/ctaImg.svg";
 
 export const Testomonial = () => {
-    return <div className="bg-[url(src/assets/images/CTABg.svg)] bg-no-repeat bg-cover">
+    return <div className="p-1 bg-[url(./assets/images/CTABg.svg)] bg-no-repeat bg-cover">
         <div className="w-10/12 max-w-[1080px] mx-auto h-auto mt-28 flex">
             <div className="my-16">
                 <h1 className="text-white font-bold font-mullish text-2xl">Supercharge your business with Razorpay</h1>
