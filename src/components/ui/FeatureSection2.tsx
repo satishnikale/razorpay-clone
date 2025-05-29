@@ -6,14 +6,12 @@ import bussiness_banking from "../../assets/images/buisness-banking.png";
 import current_icon from "../../assets/images/current-icon.svg";
 import capital_credit from "../../assets/images/capital-credit-icon.svg";
 import payouts_icon from "../../assets/images/payouts-icon.svg";
-import feature_section_2BG from "../../assets/images/feature-section-2BG.svg";
+// import feature_section_2BG from "../../assets/images/feature-section-2BG.svg";
 
 export const FeatureSection2 = () => {
     return <div className="my-10 h-auto">
         {/* <img className="" src="src/assets/images/feature-section-2BG.svg" alt="" /> */}
-        <div 
-        style={{ backgroundImage: `url(${feature_section_2BG})`}}
-        className="bg-cover bg-no-repeat h-auto pt-[16rem] pb-[500px]">
+        <div className="bg-[url(./assets/images/feature-section-2BG.svg)] bg-cover bg-no-repeat h-auto pt-[16rem] pb-[500px]">
             {/* <img className="absolute z-0 top-60 left-20 -rotate-90"
                 src="src/assets/images/x-flame-2.png" alt=""
             />

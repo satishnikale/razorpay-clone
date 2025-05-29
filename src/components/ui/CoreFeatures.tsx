@@ -1,19 +1,12 @@
-import core_features from "../../assets/images/core-features-sectionBg.svg";
+// import core_features from "../../assets/images/core-features-sectionBg.svg";
 import instant_activation from "../../assets/images/instant-activation-icon.svg";
 import easy_integration from "../../assets/images/easy-integration.svg";
 import api_driven from "../../assets/images/api-driven-icon.svg";
 import payment_modes from "../../assets/images/payment-modes.svg";
 import dashboard_reporting_icon from "../../assets/images/dashboard-reporting-icon.svg";
 import secure_icon from "../../assets/images/secure-icon.svg";
-
-
-
-
-
 export const CoreFeatures = () => {
-    return <div 
-    style={{ backgroundImage: `url(${core_features})` }}
-     className="w-full bg-cover bg-no-repeat"        
+    return <div className="bg-[url(./assets/images/core-features-sectionBg.svg)] w-full bg-cover bg-no-repeat"        
     >
         <div className="md:mt-40">
             <div className="w-10/12 max-w-[1080px] mx-auto py-48">

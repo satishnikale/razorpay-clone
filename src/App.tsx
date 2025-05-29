@@ -8,7 +8,6 @@ import { FeatureSection2 } from './components/ui/FeatureSection2'
 import { FeatureSection3 } from './components/ui/FeatureSection3'
 import { Footer } from './components/ui/FooterSection'
 import { HeroSection } from './components/ui/HeroSection'
-import MyImage from './components/ui/MyImage'
 import { Navbar } from './components/ui/Navbar'
 import { Testomonial } from './components/ui/TestomonialSection'
 

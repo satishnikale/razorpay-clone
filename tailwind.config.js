@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         mullish: ["Mullish", "sans-serif"],
       },
+       backgroundImage: {
+        'feature-section': "url('./src/assets/images/feature-section-2BG.svg')",
+        'core-section': "url('./src/assets/images/core-features-sectionBg.svg')"
+      },
       colors: {
         deepBlue: "#02042a",
         lightBlue: "#2b84ea",

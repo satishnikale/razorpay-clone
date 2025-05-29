@@ -20,7 +20,7 @@ export const AddSection = () => {
                             for you.
                         </p>
                     </div>
-                    <div className="relative w-3/5 h-[300px] overflow-y-hidden">
+                    <div className="relative w-[300px] md:w-[400px] max-w-[400px] h-[500px] overflow-y-hidden">
                         {/* <div style={{background: linear-gradient(180deg, #f4f8ff, #fff0)}} 
                             className="absolute w-full h-[150px] top-0">
                             </div> */}

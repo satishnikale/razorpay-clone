@@ -26,7 +26,7 @@ export const Carousoul = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                     </svg>
                 </div> */}
-                <div className="w-10/12 mx-auto grid sm:grid-cols-2 mt-20 mb-12 gap-y-20 rounded">
+                <div className="w-10/12 mx-auto grid sm:grid-cols-2 mt-20 mb-12 gap-y-20 gap-x-10 rounded">
                     <img className="w-[350px] rounded-lg" src={testomonial} alt="" />
                     
                     <div className="">

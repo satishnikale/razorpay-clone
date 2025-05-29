@@ -77,7 +77,7 @@ export const Footer = () => {
             </div>
           </div>
           {/* right section  */}
-          <div className="w-full pt-10 mx-8 md:w-9/12 flex flex-col  justify-between md:ml-32">
+          <div className="w-full pt-10 mx-8 md:full flex flex-col md:flex-row justify-between lg:ml-32">
             <div className="flex flex-col gap-y-2">
               {/* link - 1  */}
               <h2 className="text-gray-500 font-mullish font-bold">

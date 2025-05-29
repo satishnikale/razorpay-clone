@@ -34,7 +34,7 @@ export const Testomonial = () => {
                 </button>
             </div>
             <div className="mx-auto">
-                <img className="h-44 hidden md:hidden" src={ctaImg} alt="" />
+                <img className="h-44 hidden md:hidden lg:block" src={ctaImg} alt="" />
             </div>
         </div>
     </div>

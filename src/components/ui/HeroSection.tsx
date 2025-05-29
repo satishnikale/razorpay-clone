@@ -4,7 +4,7 @@ import hero_shape from "../../assets/images/hero-shape.svg";
 export const HeroSection = () => {
   return (
     <div>
-      <div className="relative bg-deepBlue">
+      <div className="relative bg-deepBlue pt-10">
         <div className="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto">
           <div className="space-y-8">
             <h1 className="text-white text-4xl font-bold tracking-tight overflow-y-hidden">
