@@ -26,9 +26,7 @@ function App() {
        <AddSection />
        <Carousoul />
        <Testomonial />
-       <Footer />
-    {/* <MyImage /> */}
-       
+       <Footer />  
     </div>
   )
 }
