@@ -1,5 +1,20 @@
+import core_features from "../../assets/images/core-features-sectionBg.svg";
+import instant_activation from "../../assets/images/instant-activation-icon.svg";
+import easy_integration from "../../assets/images/easy-integration.svg";
+import api_driven from "../../assets/images/api-driven-icon.svg";
+import payment_modes from "../../assets/images/payment-modes.svg";
+import dashboard_reporting_icon from "../../assets/images/dashboard-reporting-icon.svg";
+import secure_icon from "../../assets/images/secure-icon.svg";
+
+
+
+
+
 export const CoreFeatures = () => {
-    return <div className="w-full bg-[url(src/assets/images/core-features-sectionBg.svg)] bg-cover bg-no-repeat">
+    return <div 
+    style={{ backgroundImage: `url(${core_features})` }}
+     className="w-full bg-cover bg-no-repeat"        
+    >
         <div className="md:mt-40">
             <div className="w-10/12 max-w-[1080px] mx-auto py-48">
                 <div className="flex flex-col justify-center items-center gap-y-4">
@@ -11,26 +26,26 @@ export const CoreFeatures = () => {
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-8 my-10">
                     {/* box - 1 */}
                     <div className="text-white">
-                        <img src="src/assets/images/instant-activation-icon.svg" alt="" />
+                        <img src={instant_activation} alt="" />
                         <h2 className="py-4 font-mullish font-bold text-lg">Instant Activation</h2>
                         <p className="font-mullish text-gray-300 text-[16px]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
                     </div>
                     {/* box - 2 */}
                     <div className="text-white">
-                        <img src="src/assets/images/easy-integration.svg" alt="" />
+                        <img src={easy_integration} alt="" />
                         <h2 className="py-4 font-mullish font-bold text-lg">Easy Integration
                         </h2>
                         <p className="font-mullish text-gray-300 text-[16px]">With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour.</p>
                     </div>
                     {/* box - 3 */}
                     <div className="text-white">
-                        <img src="src/assets/images/api-driven-icon.svg" alt="" />
+                        <img src={api_driven} alt="" />
                         <h2 className="py-4 font-mullish font-bold text-lg">Instant Activation</h2>
                         <p className="font-mullish text-gray-300 text-[16px]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
                     </div>
                     {/* box - 4 */}
                     <div className="text-white">
-                        <img src="src/assets/images/payment-modes.svg" alt="" />
+                        <img src={payment_modes} alt="" />
                         <h2 className="py-4 font-mullish font-bold text-lg">100+ payment modes
                         </h2>
                         <p className="font-mullish text-gray-300 text-[16px]">Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
@@ -49,7 +64,7 @@ export const CoreFeatures = () => {
                     </div>
                     {/* box - 7 */}
                     <div className="text-white">
-                        <img src="src/assets/images/dashboard-reporting-icon.svg" alt="" />
+                        <img src={dashboard_reporting_icon} alt="" />
                         <h2 className="py-4 font-mullish font-bold text-lg">Dashboard Reporting
                         </h2>
                         <p className="font-mullish text-gray-300 text-[16px]">Real-time data and insights on your Razorpay Dashboard to make informed business decisions.
@@ -58,7 +73,7 @@ export const CoreFeatures = () => {
                     </div>
                     {/* box - 8 */}
                     <div className="text-white">
-                        <img src="src/assets/images/secure-icon.svg" alt="" />
+                        <img src={secure_icon} alt="" />
                         <h2 className="py-4 font-mullish font-bold text-lg">Secure</h2>
                         <p className="font-mullish text-gray-300 text-[16px]">PCI DSS Level 1 compliant solution which removes your burden of regulatory compliance.</p>
                     </div>

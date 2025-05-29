@@ -1,5 +1,8 @@
 import { Hamberger } from "../../icons/Hamberger"
 import { RightIcon } from "../../icons/RightIcon"
+import logo from "../../assets/images/logo.svg";
+import flag from "../../assets/images/india-flag.svg";
+
 
 export const Navbar = () => {
     return <div className="bg-deepBlue">
@@ -7,7 +10,7 @@ export const Navbar = () => {
             <a href="/" className="cursor-pointer pr-7">
                 <img
                     className="h-12 w-32"
-                    src="./src/assets/images/logo.svg"
+                    src={logo}
                     alt="razorpay-img"
                 />
             </a>
@@ -44,7 +47,7 @@ export const Navbar = () => {
                 </li>
             </ul>
             <div className="flex gap-6">
-                <img className="hidden lg:block" src="src/assets/images/india-flag.svg" alt="flag" />
+                <img className="hidden lg:block" src={flag} alt="flag" />
                 <button
                     className="py-2 px-4 text-white text-sm font-mullish border border-blue-500 cursor-pointer rounded-sm font-bold"
                 >

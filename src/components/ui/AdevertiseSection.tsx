@@ -1,3 +1,4 @@
+import companies from "../../assets/images/comanies.png";
 export const AddSection = () => {
     return (
         <div className="h-auto w-screen bg-blue-50 mb-10">
@@ -25,7 +26,7 @@ export const AddSection = () => {
                             </div> */}
                         <img
                             className="absolute companiesList"
-                            src="comanies.png"
+                            src={companies}
                             alt=""
                         />
                         {/* <div></div> */}

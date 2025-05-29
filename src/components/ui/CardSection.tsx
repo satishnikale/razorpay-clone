@@ -1,4 +1,14 @@
 import { ChevronIcon } from "../../icons/Chevroncon"
+import payment_link_icon  from "../../assets/images/payment-link-icon.svg"
+import payment_page_icon  from "../../assets/images/payment-pages-icon.svg"
+import subscription_icon from "../../assets/images/subscriptions-icon.svg";
+import payment_button_icon from "../../assets/images/payment-buttons-icon.svg";
+import route_icon from "../../assets/images/route-icon.svg";
+import smart_collect_icon from "../../assets/images/smart-collect-icon.svg";
+
+
+
+
 
 export const CardSection = () => {
     return <div className="w-10/12 max-w-[1080px] mx-auto  grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -8,7 +18,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-link-icon.svg" alt="" />
+                src={payment_link_icon} alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +62,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-pages-icon.svg" alt="" />
+                src={payment_page_icon} alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +109,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/payment-buttons-icon.svg" alt="" />
+                src={payment_button_icon} alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +156,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/subscriptions-icon.svg" alt="" />
+                src={subscription_icon} alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +202,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/route-icon.svg" alt="" />
+                src={route_icon} alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +248,7 @@ export const CardSection = () => {
 
             <img
                 className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                src="src/assets/images/smart-collect-icon.svg" alt="" />
+                src={smart_collect_icon} alt="" />
             <svg
                 viewBox="0 0 349.32501220703125 225"
                 xmlns="http://www.w3.org/2000/svg"

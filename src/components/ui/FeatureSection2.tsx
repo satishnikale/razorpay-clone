@@ -1,11 +1,19 @@
 import { ChevronIcon } from "../../icons/Chevroncon"
 import { ClearIcon } from "../../icons/ClearIcon"
 import { RightIcon } from "../../icons/RightIcon"
+import razorpayX from "../../assets/images/razorpayX.svg";
+import bussiness_banking from "../../assets/images/buisness-banking.png";
+import current_icon from "../../assets/images/current-icon.svg";
+import capital_credit from "../../assets/images/capital-credit-icon.svg";
+import payouts_icon from "../../assets/images/payouts-icon.svg";
+import feature_section_2BG from "../../assets/images/feature-section-2BG.svg";
 
 export const FeatureSection2 = () => {
     return <div className="my-10 h-auto">
         {/* <img className="" src="src/assets/images/feature-section-2BG.svg" alt="" /> */}
-        <div className="bg-[url(src/assets/images/feature-section-2BG.svg)] bg-cover bg-no-repeat h-auto pt-[16rem] pb-[500px]">
+        <div 
+        style={{ backgroundImage: `url(${feature_section_2BG})`}}
+        className="bg-cover bg-no-repeat h-auto pt-[16rem] pb-[500px]">
             {/* <img className="absolute z-0 top-60 left-20 -rotate-90"
                 src="src/assets/images/x-flame-2.png" alt=""
             />
@@ -26,7 +34,7 @@ export const FeatureSection2 = () => {
                                 Manage your company’s finances with
                             </h2>
                             <div className="flex gap-4">
-                                <img src="src/assets/images/razorpayX.svg" alt="" />
+                                <img src={razorpayX} alt="" />
                                 <span className="text-2xl font-mullish font-bold text-greenLight">Business Banking</span>
                             </div>
                         </span>
@@ -68,7 +76,7 @@ export const FeatureSection2 = () => {
                             </div>
                         </div>
                     </div>
-                    <img className="absolute right-0 top-0 hidden md:block lg:block md:max-w-[400px] lg:max-w-[600px]" src="src/assets/images/buisness-banking.png" alt="" />
+                    <img className="absolute right-0 top-0 hidden md:block lg:block md:max-w-[400px] lg:max-w-[600px]" src={bussiness_banking} alt="" />
 
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 my-14">
@@ -77,7 +85,7 @@ export const FeatureSection2 = () => {
 
                         <img
                             className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                            src="src/assets/images/current-icon.svg" alt="" />
+                            src={current_icon} alt="" />
                         <svg
                             viewBox="0 0 349.32501220703125 225"
                             xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +131,7 @@ export const FeatureSection2 = () => {
 
                         <img
                             className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                            src="src/assets/images/capital-credit-icon.svg" alt="" />
+                            src={capital_credit} alt="" />
                         <svg
                             viewBox="0 0 349.32501220703125 225"
                             xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +178,7 @@ export const FeatureSection2 = () => {
 
                         <img
                             className="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] trasition-all duration-200"
-                            src="src/assets/images/payouts-icon.svg" alt="" />
+                            src={payouts_icon} alt="" />
                         <svg
                             viewBox="0 0 349.32501220703125 225"
                             xmlns="http://www.w3.org/2000/svg"

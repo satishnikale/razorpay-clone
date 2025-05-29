@@ -1,3 +1,10 @@
+import testomonial from "../../assets/images/testimonial.jpg"; 
+import quotes from "../../assets/images/quotes.svg"; 
+import fake_company from "../../assets/images/fake-company-logo.png"; 
+
+
+
+
 export const Carousoul = () => {
     return <div>
         <div className="w-10/12 mx-auto h-auto relative my-10">
@@ -20,15 +27,15 @@ export const Carousoul = () => {
                     </svg>
                 </div> */}
                 <div className="w-10/12 mx-auto grid sm:grid-cols-2 mt-20 mb-12 gap-y-20 rounded">
-                    <img className="w-[350px] rounded-lg" src="src/assets/images/testimonial.jpg" alt="" />
+                    <img className="w-[350px] rounded-lg" src={testomonial} alt="" />
                     
                     <div className="">
-                        <img className="h-12 w-12" src="src/assets/images/quotes.svg" alt="" />
+                        <img className="h-12 w-12" src={quotes} alt="" />
                         <h1 className="text-blue-950 text-3xl font-thin py-4 leading-normal">Readymade Closed Wallet <br /> Solution For Quick Refunds</h1>
                         <a href="">Learn More</a>
                         <h2 className="text-xl font-mullish font-bold">Lorem Ipsum</h2>
                         <p className="font-mullish py-2">CEO, XYZ Engineering Company</p>
-                        <img className="h-12 w-16" src="src/assets/images/fake-company-logo.png" alt="" />
+                        <img className="h-12 w-16" src={fake_company} alt="" />
                     </div>
                 </div>
                 <div className="flex gap-x-2 justify-center items-center">

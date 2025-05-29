@@ -1,5 +1,6 @@
-import { ClearIcon } from "../../icons/ClearIcon"
-import { RightIcon } from "../../icons/RightIcon"
+import { ClearIcon } from "../../icons/ClearIcon";
+import { RightIcon } from "../../icons/RightIcon";
+import ctaImg from "../../assets/images/ctaImg.svg";
 
 export const Testomonial = () => {
     return <div className="bg-[url(src/assets/images/CTABg.svg)] bg-no-repeat bg-cover">
@@ -33,7 +34,7 @@ export const Testomonial = () => {
                 </button>
             </div>
             <div className="mx-auto">
-                <img className="h-44 hidden md:hidden" src="src/assets/images/ctaImg.svg" alt="" />
+                <img className="h-44 hidden md:hidden" src={ctaImg} alt="" />
             </div>
         </div>
     </div>

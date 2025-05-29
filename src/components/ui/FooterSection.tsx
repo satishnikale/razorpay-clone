@@ -1,4 +1,11 @@
 // import { RightIcon } from "../../icons/RightIcon";                                                       
+import logo_dark from "../../assets/images/logo-dark.svg"
+import footer_certificate1 from "../../assets/images/footer-certificate-1.png"
+import footer_certificate2 from "../../assets/images/footer-certificate-2.jpg"
+import facebook_icon from "../../assets/images/facebook-icon.svg"
+import twitter_icon from "../../assets/images/twitter-icon.svg"
+import instagram_icon from "../../assets/images/instagram-icon.svg"
+import github_icon from "../../assets/images/github-icon.svg"
 
 export const Footer = () => {
   return (
@@ -9,7 +16,7 @@ export const Footer = () => {
           <div className="w-full md:w-72` lg:w-3/12">
             <img
               className="w-28"
-              src="./src/assets/images/logo-dark.svg"
+              src={logo_dark}
               alt=""
             />
             <p className="font-mullish text-sm text-grayText mb-6 mt-4">
@@ -59,12 +66,12 @@ export const Footer = () => {
             <div className="flex justify-between items-center">
               <img
                 className="w-32"
-                src="src/assets/images/footer-certificate-1.png"
+                src={footer_certificate1}
                 alt=""
               />
               <img
                 className=""
-                src="src/assets/images/footer-certificate-2.jpg"
+                src={footer_certificate2}
                 alt=""
               />
             </div>
@@ -463,10 +470,10 @@ export const Footer = () => {
                   FIND US ONLINE
                 </h2>
                 <div className="flex gap-4 my-4">
-                  <img src="src/assets/images/facebook-icon.svg" alt="" />
-                  <img src="src/assets/images/twitter-icon.svg" alt="" />
-                  <img src="src/assets/images/instagram-icon.svg" alt="" />
-                  <img src="src/assets/images/github-icon.svg" alt="" />
+                  <img src={facebook_icon} alt="" />
+                  <img src={twitter_icon} alt="" />
+                  <img src={instagram_icon} alt="" />
+                  <img src={github_icon} alt="" />
                   <img
                     className="w-6"
                     src="src/assets/images/linkedin-icon.svg"

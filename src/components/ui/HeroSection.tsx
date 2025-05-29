@@ -1,3 +1,6 @@
+import hero_illustration from "../../assets/images/hero-illustration.jpg";
+import hero_shape from "../../assets/images/hero-shape.svg";
+
 export const HeroSection = () => {
   return (
     <div>
@@ -20,7 +23,7 @@ export const HeroSection = () => {
           <div className="w-3/5">
             <img
               className="max-w-full"
-              src="/src/assets/images/hero-illustration.jpg"
+              src={hero_illustration}
               alt=""
             />
           </div>
@@ -29,7 +32,7 @@ export const HeroSection = () => {
       <div className="w-[101%] left-0 right-0">
         <img
           className="w-full object-fill"
-          src="src/assets/images/hero-shape.svg"
+          src={hero_shape}
           alt="hero-shape"
         />
       </div>

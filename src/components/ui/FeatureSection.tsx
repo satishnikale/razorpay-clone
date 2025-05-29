@@ -1,12 +1,14 @@
 import { ChevronIcon } from "../../icons/Chevroncon"
 import { ClearIcon } from "../../icons/ClearIcon"
 import { RightIcon } from "../../icons/RightIcon"
+import dotted_arrow from "../../assets/images/feature-section1-dottedrows.png";
+import payment_suite from "../../assets/images/payment-suite.png";
 
 export const FeatureSection = () => {
     return <div className="relative w-full my-12">
         {/* images */}
-        <img className="absolute -top-32 left-32" src="src/assets/images/feature-section1-dottedrows.png" alt="" loading="lazy" />
-        <img className="absolute right-0 top-32" src="src/assets/images/feature-section1-dottedrows.png" alt="" loading="lazy" />
+        <img className="absolute -top-32 left-32" src={dotted_arrow} alt="" loading="lazy" />
+        <img className="absolute right-0 top-32" src={dotted_arrow} alt="" loading="lazy" />
 
         <div className="w-10/12 max-w-[1080px] mx-auto pt-8">
             {/* heading */}
@@ -66,7 +68,7 @@ export const FeatureSection = () => {
                     </div>
                 </div>
                 {/* backgraound image  */}
-                <img src="src/assets/images/payment-suite.png" alt="" 
+                <img src={payment_suite} alt="" 
                 className="max-w-[38rem] absolute right-0 bottom-0 hidden md:block lg:block md:max-w-[400px] lg:max-w-[600px]"
                 />
             </div>
