@@ -183,7 +183,7 @@ export const CardSection = () => {
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
                 <div className="h-full">
                     <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Subscriptions</h3>
-                    <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Subscription plans with automated recurring transactions on various payment modes.
+                    <p className="font-mullish text-grayText mt-2 overflow-y-hidden">Subscription plans with automated recurring transactions on various payment modes.
 
                     </p>
                 </div>
