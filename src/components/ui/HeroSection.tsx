@@ -20,7 +20,7 @@ export const HeroSection = () => {
               Sign up now
             </button>
           </div>
-          <div className="w-3/5">
+          <div className="">
             <img
               className="max-w-full"
               src={hero_illustration}
