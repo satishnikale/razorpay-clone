@@ -48,7 +48,7 @@ export const CardSection = () => {
                     <p className="font-mullish text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
                 </div>
 
-                <div className="flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
+                <div className="overflow-y-hidden flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
                     <a href="#">Know more</a>
                     <ChevronIcon />
 
@@ -87,7 +87,7 @@ export const CardSection = () => {
             </svg>
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8 overflow-y-hidden">
-                <div>
+                <div className="h-full">
                     <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">Payment Pages
                     </h3>
                     <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Take your store online instantly with zero coding. Accept international & domestic payments
@@ -95,7 +95,7 @@ export const CardSection = () => {
                     </p>
                 </div>
 
-                <div className="flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
+                <div className="overflow-y-hidden flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
                     <a href="#">Know more</a>
                     <ChevronIcon />
 
@@ -134,7 +134,7 @@ export const CardSection = () => {
             </svg>
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
-                <div>
+                <div className="h-full">
                     <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Payment Buttons
                     </h3>
                     <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more
@@ -142,7 +142,7 @@ export const CardSection = () => {
                     </p>
                 </div>
 
-                <div className="flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
+                <div className="overflow-y-hidden flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
                     <a href="#">Know more</a>
                     <ChevronIcon />
 
@@ -181,14 +181,14 @@ export const CardSection = () => {
             </svg>
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
-                <div>
+                <div className="h-full">
                     <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Subscriptions</h3>
                     <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Subscription plans with automated recurring transactions on various payment modes.
 
                     </p>
                 </div>
 
-                <div className="flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
+                <div className="overflow-y-hidden flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
                     <a href="#">Know more</a>
                     <ChevronIcon />
 
@@ -227,14 +227,14 @@ export const CardSection = () => {
             </svg>
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
-                <div>
+                <div className="h-full">
                     <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Route</h3>
                     <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Split incoming payments auto- matically to vendor’s accounts, manage marketplace money flow...
 
                     </p>
                 </div>
 
-                <div className="flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
+                <div className="overflow-y-hidden flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
                     <a href="#">Know more</a>
                     <ChevronIcon />
 
@@ -273,7 +273,7 @@ export const CardSection = () => {
             </svg>
 
             <div className="z-[100] absolute w-full h-full flex flex-col justify-between pl-6 py-6 pr-8">
-                <div>
+                <div className="h-full">
                     <h3 className="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem] overflow-y-hidden">Smart Collect
                     </h3>
                     <p className="font-mullish text-grayText mt-6 overflow-y-hidden">Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using Virtual Accounts & UPI-IDs
@@ -281,7 +281,7 @@ export const CardSection = () => {
 </p>
                 </div>
 
-                <div className="flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
+                <div className="overflow-y-hidden flex justify-center items-center text-blue-500 hover:text-black gap-1 py-4 px-7 font-extrabold transition-all trasition-duration-200">
                     <a href="#">Know more</a>
                     <ChevronIcon />
 
