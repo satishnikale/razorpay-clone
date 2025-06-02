@@ -6,9 +6,8 @@ import payment_modes from "../../assets/images/payment-modes.svg";
 import dashboard_reporting_icon from "../../assets/images/dashboard-reporting-icon.svg";
 import secure_icon from "../../assets/images/secure-icon.svg";
 export const CoreFeatures = () => {
-    return <div className="bg-[url(./assets/images/core-features-sectionBg.svg)] w-full bg-cover bg-no-repeat"        
-    >
-        <div className="md:mt-40">
+    return <div className="bg-[url(./assets/images/core-features-sectionBg.svg)] w-full bg-cover bg-no-repeat">
+        <div className="md:mt-40 mt-72 mb-20">
             <div className="w-10/12 max-w-[1080px] mx-auto py-48">
                 <div className="flex flex-col justify-center items-center gap-y-4">
                     <h1 className="text-2xl font-mullish font-bold text-white">Features</h1>
